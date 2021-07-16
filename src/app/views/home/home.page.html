@@ -1,9 +1,39 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>home</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content color="dark" [fullscreen]="true">
+  <h1 class="title">Good day, <span>{{ userEmail }}</span></h1>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <h3>Devices</h3>
+      </ion-col>
+      <ion-col size="12">
+        <ion-slides pager="false" [options]="slideOpts">
+          <ion-slide>
+            <ion-col size="12">
+              <div class="button-devices">
+                <ion-icon name="cog-outline" class="icon-device"></ion-icon>
+              </div>
+              <h4 class="title-name">Making Coffe</h4>
+              <p class="title-state">In Progress</p>
+            </ion-col>
+          </ion-slide>
+        </ion-slides>
+      </ion-col>
+      <ion-col size="12">
+        <h3>Ports</h3>
+      </ion-col>
+      <ion-col size="12">
+        <ion-slides pager="false" [options]="slideOpts">
+          <ion-slide>
+            <ion-col size="12">
+              <div class="button-ports">
+                <ion-icon name="id-card-outline" class="icon-device"></ion-icon>
+              </div>
+              <h4 class="title-name">Making Coffe</h4>
+              <p class="title-state">In Progress</p>
+            </ion-col>
+          </ion-slide>
+        </ion-slides>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

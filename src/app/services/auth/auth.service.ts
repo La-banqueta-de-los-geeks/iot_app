@@ -22,9 +22,6 @@ export class AuthService {
     this.storage.create();
   }
 
-  // return an observable with a user-facing error message
-  //return throwError('Something bad happened; please try again later.');
-
   Login(email, password): Promise<any> {
     try {
       return this.http
@@ -40,6 +37,7 @@ export class AuthService {
         .toPromise()
         .then((res) => {
           this.storage.set('userToken', res['user'].token.token);
+          this.storage.set('inf',res);
           this.storage.set('orgToken', res['organization'].token.token);
           return res;
         })

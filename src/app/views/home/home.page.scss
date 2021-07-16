@@ -1,0 +1,52 @@
+.title {
+  font-weight: bold;
+  margin-top: 50px;
+  padding-left: 20px;
+}
+span {
+  font-weight: 300;
+}
+ion-grid {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+h3 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+.button-devices {
+  background: #ffd075;
+  width: 100%;
+  border-radius: 20px;
+  height: 120px;
+  box-shadow: 1px 1px 8px 1px #f7d28e;
+  padding: 10px;
+  margin-bottom: 5px;
+  .icon-device {
+    font-size: 50px;
+    margin-top: 24px;
+  }
+}
+.button-ports {
+    background: #2b3b80;
+    width: 100%;
+    border-radius: 20px;
+    height: 120px;
+    box-shadow: 1px 1px 8px 1px #172155;
+    padding: 10px;
+    margin-bottom: 5px;
+    .icon-device {
+      font-size: 50px;
+      margin-top: 24px;
+    }
+  }
+.title-name {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.title-state {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
