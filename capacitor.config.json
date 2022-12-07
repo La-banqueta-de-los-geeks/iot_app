@@ -1,6 +1,6 @@
 {
 	"appId": "io.ionic.starter",
-	"appName": "vurotron",
-	"webDir": "www",
+	"appName": "iot_app",
+	"webDir": "build",
 	"bundledWebRuntime": false
 }
