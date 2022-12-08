@@ -1,0 +1,65 @@
+.section_auth__container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.section_auth__container .section_auth__box {
+    padding-top: 5px;
+}
+
+.section_auth__container .section_auth__box ion-item {
+    --background: transparent;
+    --padding-start: 0px;
+    --padding-end: 0px;
+    --background-focused: transparent;
+    --background-hover: transparent;
+}
+
+.section_auth__container .title {
+    margin-top: 0px;
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+}
+
+.section_auth__container .section_auth__box ion-item ion-input {
+    width: 100%;
+    height: 52px;
+    background: #f0f0f0;
+    border-radius: 30px;
+    padding: 7px 34px 4px 60px !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.section_auth__container .section_auth__box ion-item ion-input ::placeholder {
+    margin-left: 30px;
+}
+
+.section_auth__container .section_auth__box ion-item ion-button {
+    margin-left: 0px;
+    position: absolute;
+    z-index: 100;
+    margin-left: 25px;
+    top: 10px;
+    --background: transparent;
+    --background-activated: transparent;
+    --background-focused: transparent;
+    --background-hover: transparent;
+}
+
+.section_auth__container .section_auth__box ion-item ion-button .user__icon {
+    font-size: 20px;
+}
+
+.section_auth__container .section_auth__box ion-item ion-button .password__icon {
+    font-size: 24px;
+}
+
+.invalidate_auth__text {
+    color: #ff0000;
+    font-weight: bold;
+    padding-left: 1rem;
+}
