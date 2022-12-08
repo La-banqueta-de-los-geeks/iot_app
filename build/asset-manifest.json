@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf988606.css",
+    "main.js": "/static/js/main.8e10ef78.js",
+    "static/js/738.dc8027b8.chunk.js": "/static/js/738.dc8027b8.chunk.js",
+    "static/js/372.e195c247.chunk.js": "/static/js/372.e195c247.chunk.js",
+    "static/js/856.c219f426.chunk.js": "/static/js/856.c219f426.chunk.js",
+    "static/js/851.b87c1f5d.chunk.js": "/static/js/851.b87c1f5d.chunk.js",
+    "static/js/22.658eeab7.chunk.js": "/static/js/22.658eeab7.chunk.js",
+    "static/js/272.98830461.chunk.js": "/static/js/272.98830461.chunk.js",
+    "static/js/841.3d27971a.chunk.js": "/static/js/841.3d27971a.chunk.js",
+    "static/js/186.01460615.chunk.js": "/static/js/186.01460615.chunk.js",
+    "static/js/377.41d5c35e.chunk.js": "/static/js/377.41d5c35e.chunk.js",
+    "static/media/background.svg": "/static/media/background.8dee40a2da45786f4814a95c4605bde7.svg",
+    "service-worker.js": "/service-worker.js",
+    "index.html": "/index.html",
+    "static/media/app-auth-password.svg": "/static/media/app-auth-password.de03202abb53768d106bc84260a44689.svg",
+    "static/media/app-auth-go-next.svg": "/static/media/app-auth-go-next.340872fa1c86fb29786821b09dfbdd05.svg",
+    "static/media/app-auth-user.svg": "/static/media/app-auth-user.29155b3101199cc643455ccaab7e6b19.svg",
+    "main.cf988606.css.map": "/static/css/main.cf988606.css.map",
+    "main.8e10ef78.js.map": "/static/js/main.8e10ef78.js.map",
+    "738.dc8027b8.chunk.js.map": "/static/js/738.dc8027b8.chunk.js.map",
+    "372.e195c247.chunk.js.map": "/static/js/372.e195c247.chunk.js.map",
+    "856.c219f426.chunk.js.map": "/static/js/856.c219f426.chunk.js.map",
+    "851.b87c1f5d.chunk.js.map": "/static/js/851.b87c1f5d.chunk.js.map",
+    "22.658eeab7.chunk.js.map": "/static/js/22.658eeab7.chunk.js.map",
+    "272.98830461.chunk.js.map": "/static/js/272.98830461.chunk.js.map",
+    "841.3d27971a.chunk.js.map": "/static/js/841.3d27971a.chunk.js.map",
+    "186.01460615.chunk.js.map": "/static/js/186.01460615.chunk.js.map",
+    "377.41d5c35e.chunk.js.map": "/static/js/377.41d5c35e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf988606.css",
+    "static/js/main.8e10ef78.js"
+  ]
+}
